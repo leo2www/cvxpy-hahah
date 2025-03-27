@@ -1,6 +1,10 @@
 {
 	"name": "Python 3",
 	"image": "mcr.microsoft.com/devcontainers/python:0-3.10",
+	"features": {
+		"ghcr.io/devcontainers/features/nix:1":{	
+		} 
+	},
 	"onCreateCommand": "bash .devcontainer/startup.sh",
 	"customizations": {
 		"vscode": {
